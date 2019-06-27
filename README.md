@@ -34,7 +34,7 @@ const select: <TObj, TResult>(
 ) => TResult;
 ```
 
-##### Example
+Example:
 
 ```js
 import { select } from "pselect";
@@ -55,7 +55,7 @@ const cselect: <TObj, TResult>(
 ) => (subject: TObj) => TResult;
 ```
 
-##### Examples
+Examples:
 
 ```js
 import { cselect } from "pselect";
